@@ -38,17 +38,9 @@ const vue_app = Vue.createApp({
             title: "IMDB + Alex's Top 8 Movies",
             owner: "Alex",
             github: "https://github.com/123azemak/ZEMAK-3_StarterFiles-master",
-            poster: ,
-            imageInfo: ,
-            score: ,
-            runtime: ,
-            released: ,
-            likes: ,
-            dislikes: ,
-            websites: ,
-
+           
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-         
+      
       }
     },
       methods: {
