@@ -46,11 +46,31 @@ const vue_app = Vue.createApp({
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthtext(dateArray){
-
+                  // the switch statement will go through every json object, looking at each date in each movie, when it finds a match, it will take that date and convert it into us date format
+                  // maybe make the code in the expression a number that goes up everytime it does not find the right movie, and loops back once it tries to go past the fifth movie
+                  // to make the number go up, maybe make an if else statement? but why would i make an if else statement when the switch statement is meant to replace the need of an if else statement
+                  // 
+                  switch (/*idk wat to put here*/) {
+            case movies[index].released = "[1994, 10, 14]":
+                  movies[index].released = "December 10, 1987";
+              break;
+            case movies[index].released = "[1972, 3, 24]":
+                  movies[index].released = "March 24, 1972";
+              break;
+            case movies[index].released = "[1974, 12, 20]":
+                  movies[index].released = "December 20, 1974";
+              break;
+            case movies[index].released = "[2008, 7, 18]":
+                  movies[index].released = "July 18, 2008";
+              break;
+            case movies[index].released = "[1993, 11, 30]":
+                  movies[index].released = "November 30, 1993";
+              break;
+                      }
             },
             posterClick(index){
 // var x = 
-// var y =
+// var y = 
             },
             timeText(minutes){
 
