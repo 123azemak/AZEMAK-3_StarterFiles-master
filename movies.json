@@ -68,5 +68,18 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
-      }
+      },
+      {"title": "MORBIUS",
+            "iscore": 5.2,
+            "rating": "PG-13",
+            "runtime": 104,
+            "released": [2022, 4, 1],
+            "country": "USA",
+            "posters": ["img/MORB.jpg", "img/MORB2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5108870",
+            "website": "https://www.sonypictures.com/movies/morbius",
+            "likes": 0,
+            "dislikes": 901,
+            "posterindex": 0
+}
 ]

@@ -37,7 +37,7 @@
 	        <div class="col-md-6">
 	            <div class="thumbnail">
 
-						<img class="poster img-fluid" @click="posterClick(index)" :src="movies[index].posters[0]" />
+						<img class="poster img-fluid" @click="posterClick(index)" :src="movies[index].posters[movie.posterindex]" />
 						<div class="imageInfo">Poster {{ movies[index].posterindex }} of {{ movies[index].posters.length }}</div>
 
 						<p class="title">{{ movies[index].title }} ({{ movies[index].country }})</p>
